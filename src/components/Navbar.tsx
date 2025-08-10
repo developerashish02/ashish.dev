@@ -76,7 +76,7 @@ export default function Navbar() {
             onClick={() => scrollToSection("contact")}
             className="px-6 py-2 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-medium rounded-full transition-all duration-300 relative overflow-hidden group"
           >
-            <span className="relative z-10">Let's Talk</span>
+            <span className="relative z-10">Let&apos;s Talk</span>
             <div className="absolute inset-0 bg-gradient-to-r from-cyan-600 to-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-center duration-300" />
           </motion.button>
         </div>
@@ -124,7 +124,7 @@ export default function Navbar() {
             onClick={() => scrollToSection("contact")}
             className="w-full mt-4 px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-medium rounded-full"
           >
-            Let's Talk
+            Let&apos;s Talk
           </button>
         </div>
       </motion.div>

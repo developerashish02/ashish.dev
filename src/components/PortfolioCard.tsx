@@ -3,6 +3,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 interface PortfolioCardProps {
   title: string;
@@ -27,9 +28,11 @@ export default function PortfolioCard({
     >
       <Card className="overflow-hidden border-0 shadow-lg hover:shadow-2xl transition-all duration-300">
         <div className="relative overflow-hidden">
-          <img
+          <Image
             src={imageUrl}
             alt={title}
+            width={400}
+            height={192}
             className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
           />
           <div className="absolute top-4 left-4">

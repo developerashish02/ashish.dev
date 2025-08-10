@@ -205,7 +205,7 @@ export default function SkillsSection() {
             </h3>
             <p className="text-slate-300 mb-6 leading-relaxed">
               With my diverse skill set and passion for creating exceptional digital experiences, 
-              I'm excited to help you build something amazing. Let's discuss how we can work together.
+              I&apos;m excited to help you build something amazing. Let&apos;s discuss how we can work together.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.button

@@ -84,7 +84,7 @@ export default function HeroSection() {
             transition={{ delay: 0.3 }}
             className="text-cyan-300 text-lg font-medium mb-2"
           >
-            Hello, I'm Ashish Gaikwad
+            Hello, I&apos;m Ashish Gaikwad
           </motion.h3>
         </motion.div>
 

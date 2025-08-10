@@ -10,7 +10,7 @@ export default function TestimonialsSection() {
       business: "Mama's Kitchen Restaurant",
       avatar: "👩‍🍳",
       rating: 5,
-      review: "WebCraft transformed our restaurant's online presence! We went from zero online orders to 40+ daily orders within just 2 weeks of launching. The WhatsApp integration is a game-changer for customer communication."
+      review: "WebCraft transformed our restaurant&apos;s online presence! We went from zero online orders to 40+ daily orders within just 2 weeks of launching. The WhatsApp integration is a game-changer for customer communication."
     },
     {
       name: "Mike Johnson",
@@ -24,7 +24,7 @@ export default function TestimonialsSection() {
       business: "Glamour Hair Salon",
       avatar: "✂️",
       rating: 5,
-      review: "I couldn't be happier with my new website! It's exactly what I envisioned. The online booking feature reduced my administrative work significantly, and the beautiful gallery showcases our work perfectly."
+      review: "I couldn&apos;t be happier with my new website! It&apos;s exactly what I envisioned. The online booking feature reduced my administrative work significantly, and the beautiful gallery showcases our work perfectly."
     },
     {
       name: "David Thompson",
@@ -63,7 +63,7 @@ export default function TestimonialsSection() {
             What Our <span className="bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">Clients Say</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Don't just take our word for it. Here's what local business owners say about working with us.
+            Don&apos;t just take our word for it. Here&apos;s what local business owners say about working with us.
           </p>
         </motion.div>
 
@@ -94,7 +94,7 @@ export default function TestimonialsSection() {
 
                   {/* Review Text */}
                   <blockquote className="text-gray-600 italic mb-6 text-center leading-relaxed">
-                    "{testimonial.review}"
+                    &ldquo;{testimonial.review}&rdquo;
                   </blockquote>
 
                   {/* Client Info */}
@@ -121,7 +121,7 @@ export default function TestimonialsSection() {
               Ready to Join Our Success Stories?
             </h3>
             <p className="text-gray-600 mb-6">
-              Let's discuss how we can help your business grow online.
+              Let&apos;s discuss how we can help your business grow online.
             </p>
             <button
               onClick={() => {

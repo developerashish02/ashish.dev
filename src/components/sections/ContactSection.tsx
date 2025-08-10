@@ -31,7 +31,7 @@ export default function ContactSection() {
   };
 
   const handleWhatsAppClick = () => {
-    const message = encodeURIComponent("Hi! I'm interested in getting a website for my business. Can we discuss?");
+    const message = encodeURIComponent("Hi! I&apos;m interested in getting a website for my business. Can we discuss?");
     window.open(`https://wa.me/91XXXXXXXXXX?text=${message}`, "_blank");
   };
 
@@ -46,7 +46,7 @@ export default function ContactSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-            Let's <span className="bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">Connect</span>
+            Let&apos;s <span className="bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">Connect</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Ready to transform your business online? Get in touch with us today for a free consultation.
@@ -221,7 +221,7 @@ export default function ContactSection() {
 
                 <div className="mt-6 text-center">
                   <p className="text-sm text-gray-500">
-                    We'll get back to you within 24 hours!
+                    We&apos;ll get back to you within 24 hours!
                   </p>
                 </div>
               </CardContent>

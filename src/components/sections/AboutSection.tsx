@@ -58,7 +58,7 @@ export default function AboutSection() {
             About <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">Me</span>
           </h2>
           <p className="text-xl md:text-2xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
-            I'm a passionate full-stack developer who loves creating digital experiences that make a difference. 
+            I&apos;m a passionate full-stack developer who loves creating digital experiences that make a difference. 
             Let me tell you my story.
           </p>
         </motion.div>
@@ -87,8 +87,8 @@ export default function AboutSection() {
               
               <div className="space-y-4 text-slate-300 leading-relaxed">
                 <p>
-                  🚀 I'm a full-stack developer with a passion for creating exceptional digital experiences. 
-                  My journey started 3+ years ago when I wrote my first line of code, and I haven't looked back since.
+                  🚀 I&apos;m a full-stack developer with a passion for creating exceptional digital experiences. 
+                  My journey started 3+ years ago when I wrote my first line of code, and I haven&apos;t looked back since.
                 </p>
                 
                 <p>
@@ -97,7 +97,7 @@ export default function AboutSection() {
                 </p>
                 
                 <p>
-                  🎯 When I'm not coding, you'll find me exploring new technologies, contributing to open source, 
+                  🎯 When I&apos;m not coding, you&apos;ll find me exploring new technologies, contributing to open source, 
                   or mentoring aspiring developers. I believe in continuous learning and sharing knowledge with the community.
                 </p>
               </div>
@@ -199,10 +199,10 @@ export default function AboutSection() {
         >
           <div className="bg-gradient-to-r from-slate-800/50 to-slate-700/50 backdrop-blur-sm border border-slate-600/30 rounded-2xl p-8 max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Let's Build Something Amazing Together
+              Let&apos;s Build Something Amazing Together
             </h3>
             <p className="text-slate-300 mb-6">
-              Ready to turn your ideas into reality? I'm always excited to work on new projects and challenges.
+              Ready to turn your ideas into reality? I&apos;m always excited to work on new projects and challenges.
             </p>
             <motion.button
               whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(6, 182, 212, 0.3)" }}

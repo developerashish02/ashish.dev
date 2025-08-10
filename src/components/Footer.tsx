@@ -70,7 +70,7 @@ export default function Footer() {
             </div>
             <p className="text-slate-400 leading-relaxed mb-6">
               Full-stack developer passionate about creating exceptional digital experiences. 
-              Let's build something amazing together.
+              Let&apos;s build something amazing together.
             </p>
             <div className="flex items-center gap-2 text-slate-400">
               <div className="w-3 h-3 bg-emerald-400 rounded-full animate-pulse"></div>
@@ -107,7 +107,7 @@ export default function Footer() {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-lg font-semibold text-white mb-6">Let's Connect</h3>
+            <h3 className="text-lg font-semibold text-white mb-6">Let&apos;s Connect</h3>
             <div className="space-y-4 mb-6">
               <a 
                 href="mailto:ashish.gaikwad@example.com" 
